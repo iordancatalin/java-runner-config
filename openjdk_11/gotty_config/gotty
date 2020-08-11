@@ -1,0 +1,7 @@
+preferences {
+    background_color = "#202124"
+    cursor_color = "#fff"
+    font_family = "source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace"
+    scrollbar_visible = true
+    user_css="https://drive.google.com/uc?export=view&id=1WVaQ2TqteOLj21ydi1jzXl0he40QfmLh"
+}
