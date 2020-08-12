@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11.0-jdk-slim
 
 ENV GOTTY_TAG_VER v1.0.1
 
@@ -10,4 +10,4 @@ RUN apt-get -y update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists*
 
-COPY /gotty_config/gotty /gotty
+COPY ./gotty_config/gotty /gotty
